@@ -1,0 +1,71 @@
+#socialize-bottom-container {
+    z-index: 99;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background: #fff;
+    color: #fff;
+    padding: 0;
+    margin: 0;
+}
+
+.socialize-outer-center {
+    float: right;
+    right: 50%;
+    position: relative;
+}
+.socialize-inner-center {
+    float: right;
+    right: -50%;
+    position: relative;
+}
+
+#socialize-bottom-container .socialize-wrapper{
+    padding: 10px;
+    height: 40px;
+}
+
+#socialize-bottom-container .socialize-wrapper .socialize-facebook{
+    float: left;
+    margin-right: 10px;
+    width: 130px;
+}
+#socialize-bottom-container .socialize-wrapper .socialize-google{
+    float: left;
+    width: 90px;
+    margin-right: 10px;
+}
+#socialize-bottom-container .socialize-wrapper .socialize-twitter{
+    float: left;
+    margin-right: 7px;
+    width: 110px;
+}
+
+#socialize-bottom-container .socialize-wrapper .socialize-pinterest{
+    float: left;
+    margin-right: 0px;
+    width: 60px;
+    padding: 0;
+    margin: 0;
+    margin-top: 0px;
+}
+
+
+#socialize-bottom-container .socialize-wrapper .socialize-stumbleupon{
+    float: left;
+    margin-right: 0px;
+    width: 100px;
+}
+
+
+#socialize-bottom-container .socialize-wrapper .socialize-linkedin{
+    float: left;
+    margin-right: 0px;
+    width: 160px;
+}
+.developer-copyright {
+    bottom: 0;
+    z-index: 1;
+    position: fixed;
+}
